@@ -1,4 +1,4 @@
-﻿namespace dotnet_mstest_examples
+﻿namespace dotnet_mstest_examples.Entity
 {
     public class Person
     {
