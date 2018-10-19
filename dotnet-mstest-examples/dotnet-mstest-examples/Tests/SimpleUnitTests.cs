@@ -25,7 +25,7 @@ namespace dotnet_mstest_examples.Tests
         public void Name_Test()
         {
             var bob = new Person("Bob", 25);
-            Assert.AreEqual(25, bob.Age);
+            Assert.AreEqual("Bob", bob.Name);
         }
 
         [DataRow("Bob", 25)]
